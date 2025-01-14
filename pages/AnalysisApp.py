@@ -68,20 +68,20 @@ else:
 
     st.plotly_chart(fig2, use_container_width=True)
 
-# st.header('Side by Side BHK price comparison')
 
-# fig3 = px.box(new_df[new_df['bedRoom'] <= 4], x='bedRoom', y='price', title='BHK Price Range')
+st.header('Side by Side BHK price comparison')
 
-# st.plotly_chart(fig3, use_container_width=True)
+fig3 = px.box(new_df[new_df['bedRoom'] <= 4], x='bedRoom', y='price', title='BHK Price Range')
+st.plotly_chart(fig3, use_container_width=True)
+fig3 = plt.figure(figsize=(10, 4))
 
 
-# st.header('Side by Side Distplot for property type')
+st.header('Side by Side Distplot for property type')
 
-# fig3 = plt.figure(figsize=(10, 4))
-# sns.histplot(data=new_df[new_df['property_type'] == 'house'], x='price', kde=True, label='house', color='blue')
-# sns.histplot(data=new_df[new_df['property_type'] == 'flat'], x='price', kde=True, label='flat', color='orange')
-# plt.legend()
-# st.pyplot(fig3)
+sns.histplot(data=new_df[new_df['property_type'] == 'house'], x='price', kde=True, label='house', color='blue')
+sns.histplot(data=new_df[new_df['property_type'] == 'flat'], x='price', kde=True, label='flat', color='orange')
+plt.legend()
+st.pyplot(fig3)
 
 
 
