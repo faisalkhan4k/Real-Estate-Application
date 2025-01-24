@@ -7,4 +7,4 @@ st.set_page_config(
 
 st.write("# Welcome to Real Estate Nerd! 👋")
 
-st.sidebar.success("Select a demo above.")
+st.sidebar.success("Choose a page from above!")
