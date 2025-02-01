@@ -3,5 +3,5 @@
   <li>Price predictor</li>
   <li>Analytics Module</li>
   <li>Recommender System (in progress)</li>
-  <li>Insight Module (in progress)</li>
+  <li>Insight Module</li>
 </ol>
