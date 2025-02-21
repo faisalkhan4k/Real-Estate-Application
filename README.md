@@ -6,7 +6,7 @@
 </ol>
 
 
-<img src='./home.png'>
-<img src='./price-predictor.png'>
+<img src='./home'>
+<img src='./price-predictor'>
 <img src='./Screenshot 2025-01-14 105818.png'>
-<img src='./recommender.png'>
+<img src='./recommender'>
