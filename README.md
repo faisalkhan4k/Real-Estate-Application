@@ -5,5 +5,8 @@
   <li>Recommender System </li>
 </ol>
 
+
+<img src='./home.png'>
+<img src='./price-predictor.png'>
 <img src='./Screenshot 2025-01-14 105818.png'>
-![App Screenshot](https://via.placeholder.com/468x300?text=./Screenshot 2025-01-14 105818.png)
+<img src='./recommender.png'>
