@@ -30,8 +30,10 @@ old_height = driver.execute_script('return document.body.scrollHeight')
 
 
 while True:
-
-    driver.find_element(by=By.XPATH,value='//*[@id="load_more_button"]').click()
+    try:
+        driver.find_element(by=By.XPATH,value='//*[@id="load_more_button"]').click()
+    except:
+        print('oh noo end ')
     time.sleep(2)
 
     new_height = driver.execute_script('return document.body.scrollHeight')
